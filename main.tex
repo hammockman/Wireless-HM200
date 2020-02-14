@@ -1,0 +1,56 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+\usepackage{lipsum} %This package just generates Lorem Ipsum filler text. 
+\usepackage{fullpage} % changes the margin
+\usepackage{url}
+
+\title{Wireless Raw Data Collection from Hitman HM200}
+\author{Jonathan Harrington, Robin Harrington, Marco Lausberg}
+
+\begin{document}
+\maketitle
+\noindent
+
+\section*{Problem Statement}
+
+The Hitman HM200 tool\footnote{\url{http://www.fibre-gen.com/#!hitman-hm200/c11bw}} is capable of emitting raw time series measurements via an RS-232 serial port. This facility, no doubt intended primarily for debugging peuposes, has proved useful in research context as it permits verification of the acoustic velocity estimated by the device, application to samples that the device itself will not accept (e.g. very short samples) and allows for further signal analysis.
+
+Two major drawbacks:
+
+\begin{itemize}
+\item Software provided can only capture signals one at a time 
+\item Cabling
+\end{itemize}
+
+Dragging cables connected to a laptop means extra manpower is required
+
+
+\section*{Approach}
+
+\subsection*{Software}
+
+Reverse engineer RS-232 signal.
+
+Write new software that permits:
+
+1. endless capture of 
+
+
+
+\subsubsection{}{Hardware}
+
+\section*{Alternative Solutions}
+\lipsum[3]
+
+\section*{Construction/Implementation}
+\lipsum[5]
+
+\section*{Analysis \& Testing}
+\lipsum[6]
+
+\section*{Next}
+
+The current solution has so far performed well. 
+
+
+\end{document}
